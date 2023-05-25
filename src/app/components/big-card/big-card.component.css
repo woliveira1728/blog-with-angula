@@ -1,5 +1,4 @@
 .container__big-card{
-    border: solid white 2px;
     width:400px;
     height: 450px;
 
@@ -19,7 +18,7 @@
 }
 
 .description__big-card > p{
-    color: grey;
+    color: black;
     margin-top: 10px;
 }
 

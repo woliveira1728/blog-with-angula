@@ -2,22 +2,25 @@
     width: 750px;
     margin-bottom: 15px;
 }
-    .container__small-card-content{
-        display: flex;
-        flex-direction: row;
-    }
+.container__small-card-content{
+    display: flex;
+    flex-direction: row;
+}
 
-        .photo__small-card > img{
-            width: 200px;
-            min-width: 200px;
-            margin-right: 20px;
-        }
 
-        .title__small-card{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    .container___separator__small-card{
-        margin-top: 10px;
-    }
+.photo__small-card > img{
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.title__small-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container___separator__small-card{
+    margin-top: 10px;
+}
